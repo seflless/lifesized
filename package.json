@@ -1,0 +1,30 @@
+{
+  "name": "realunits",
+  "version": "0.0.0",
+  "description": "Get the real size, dpi, user view distance, zoom, pixel ratios, and more of devices in browser.",
+  "main": "realunits.js",
+  "scripts": {
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francoislaberge/realunits"
+  },
+  "keywords": [
+    "CSS",
+    "Units",
+    "DPI",
+    "PPI",
+    "Pixel",
+    "Ratio"
+  ],
+  "author": {
+    "name": "Francois Laberge",
+    "email": "francoislaberge@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francoislaberge/realunits/issues"
+  },
+  "homepage": "https://github.com/francoislaberge/realunits"
+}
