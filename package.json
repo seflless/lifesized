@@ -1,6 +1,6 @@
 {
   "name": "lifesized",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Get the real size, dpi, user view distance, zoom, pixel ratios, and more of devices in browser.",
   "main": "realunits.js",
   "scripts": {
