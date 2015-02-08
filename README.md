@@ -2,7 +2,7 @@
 Get the real size, dpi, user view distance, zoom, pixel ratios, and more of devices in browser.
 
 This project is a work in progress. Currently it's no more than a placeholder of the npm module name,
-this readme, and a simple hacked demo.
+this readme, and a [simple hacked demo](http://francoislaberge.com/lifesized/examples/coins/coins.html).
 
 # Project Philosophy
 The size of fonts, line spacing, margins, row widths, button dimensions, and more aspects of design
