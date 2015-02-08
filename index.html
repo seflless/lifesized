@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>lifesized</title>
+
+  <style>
+    body{
+      font-family: Trebuchet, Arial;
+    }
+    #container {
+      width: 100%;
+      max-width: 480px;
+      margin: 0px auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>Coming Soon</h1>
+    <p>For now checkout the hacked <a href="examples/coins/">coins demo</a>.</p>
+
+    </br>
+    <h1>System Info</h1>
+    <div id="info"></div>
+
+    <script>
+      var info = document.getElementById('info');
+
+      info.innerHTML += '<h2>navigator.userAgent</h2>';
+      info.innerHTML += '<p>"' +navigator.userAgent + '"</p>';
+      info.innerHTML += '<h2>screen</h2>';
+      info.innerHTML += '<p>' + JSON.stringify(screen, null, '\t').replace(/\n/g, '</br>').replace(/\t/g,'&nbsp;&nbsp;&nbsp;&nbsp;') + '</p>';
+      info.innerHTML += '<h2>window.devicePixelRatio</h2>';
+      info.innerHTML += '<p>' + window.devicePixelRatio + '</p>';
+
+    </script>
+  </div>
+</body>
+</html>
