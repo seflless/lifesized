@@ -4,6 +4,10 @@ Get the real size, dpi, user view distance, zoom, pixel ratios, and more of devi
 This project is a work in progress. Currently it's no more than a placeholder of the npm module name,
 this readme, and a [simple hacked demo](http://francoislaberge.com/lifesized/examples/coins/coins.html).
 
+# Installation
+
+      npm install lifesized
+
 # Project Philosophy
 The size of fonts, line spacing, margins, row widths, button dimensions, and more aspects of design
 should be setting UI element sizes based the physical units of measurement and using more perceptual
@@ -19,7 +23,3 @@ We hope this will provide more precise inputs for responsive designs. Examples
   - If you rendered images of objects so that the appear real world sized it may lead to better
     immersion.
   - More concrete examples to come.
-
-# Installation
-
-      npm install lifesized
