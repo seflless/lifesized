@@ -1,5 +1,5 @@
 {
-  "name": "realunits",
+  "name": "lifesized",
   "version": "0.0.0",
   "description": "Get the real size, dpi, user view distance, zoom, pixel ratios, and more of devices in browser.",
   "main": "realunits.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/francoislaberge/realunits"
+    "url": "https://github.com/francoislaberge/lifesized"
   },
   "keywords": [
     "CSS",
@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/francoislaberge/realunits/issues"
+    "url": "https://github.com/francoislaberge/lifesized/issues"
   },
-  "homepage": "https://github.com/francoislaberge/realunits"
+  "homepage": "https://github.com/francoislaberge/lifesized"
 }
