@@ -6,10 +6,7 @@
 
 # Update the Github page
 
-      git checkout gh-pages
-      git merge master
-      git push
-      git checkout master
+      ./tools/github-pages
 
 # Todo
  - [ ] Make sure I understand npm's auth model for specifying contributors.
