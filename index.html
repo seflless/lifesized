@@ -26,9 +26,9 @@
     <script>
       var info = document.getElementById('info');
 
-      info.innerHTML += '<h2>navigator.userAgent</h2>';
+      info.innerHTML += '<h2>navigator.userAgent = </h2>';
       info.innerHTML += '<p>"' +navigator.userAgent + '"</p>';
-      info.innerHTML += '<h2>screen</h2>';
+      info.innerHTML += '<h2>window.screen = </h2>';
       info.innerHTML += '<p>' + JSON.stringify(screen, null, '\t').replace(/\n/g, '</br>').replace(/\t/g,'&nbsp;&nbsp;&nbsp;&nbsp;') + '</p>';
       info.innerHTML += '<h2>window.devicePixelRatio</h2>';
       info.innerHTML += '<p>' + window.devicePixelRatio + '</p>';
