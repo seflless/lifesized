@@ -12,12 +12,25 @@ var lifesized = {
     /**
      * Get the pixels per inch of a screen
      *
-     * @param [screen] (Electron Screen Instance) If not provided the display
+     * @param [display] (Electron Screen Instance) If not provided the display
               this process' BrowserWindow' is over will be used
      */
     ppi: function(display){
         display = display || getBrowserWindowDisplay();
         return getPPI(display);
+    },
+
+    /**
+     * Get the pixels per inch of a screen
+     *
+     * @param objectRealSize (Number) Real size of an object in inches
+     * @param objectPixelSize (Number) Size of the object in an image in pixels
+     * @param [display] (Electron Screen Instance) If not provided the display
+              this process' BrowserWindow' is over will be used
+     */
+    scale: function(objectRealSize, objectPixelSize, display){
+        var ppi = lifesized.ppi(display);
+        return objectRealSize*ppi/objectPixelSize;
     }
 };
 

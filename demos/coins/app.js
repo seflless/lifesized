@@ -1,7 +1,4 @@
-var lifesized = require('../../src/lifesized'),
-    screen = require('screen');
-
-console.log(screen.getAllDisplays());
+var lifesized = require('../../src/lifesized');
 
 var coins = [
         // Sizes are from the US mint:
