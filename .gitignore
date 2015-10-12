@@ -3,6 +3,7 @@ node_modules
 npm-debug.log
 
 build/*.app
+build/*.app.zip
 build/lifesized-cli/Build/Intermediates
 build/lifesized-cli/Logs
 build/lifesized-cli/info.plist
