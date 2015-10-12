@@ -19,7 +19,7 @@ var lifesized = require('lifesized');
 var pixelsPerInch = lifesized.ppi();
 ```
 
-See the [Demo](#demo) and its [source](https://github.com/francoislaberge/lifesized/tree/master/examples/coins) for a working example.
+See the [Demos](#demo) and their [source](https://github.com/francoislaberge/lifesized/tree/master/examples) for a working example.
 
 ### API
 
