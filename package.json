@@ -1,14 +1,14 @@
 {
   "name": "lifesized",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Display things in life size",
   "main": "src/lifesized.js",
   "scripts": {
     "start": "npm start",
     "test": "./node_modules/.bin/electron examples/coins/main.js"
   },
-  "devDependencies":{
-      "electron-prebuilt": "0.33.7"
+  "devDependencies": {
+    "electron-prebuilt": "0.33.7"
   },
   "author": {
     "name": "Francois Laberge",
