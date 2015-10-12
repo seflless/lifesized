@@ -74,8 +74,6 @@ app.on('ready', function() {
 
   // Create the browser window.
   mainWindow = new BrowserWindow({
-      //width: 1280,
-      //height: 720,
       fullscreen: true
   });
 

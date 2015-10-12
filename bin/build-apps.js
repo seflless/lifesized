@@ -7,11 +7,13 @@ var execSync = require('child_process').execSync;
 // Create an Electron app for each demo
 createApp("demos/coins", "Coins");
 createApp("demos/shaqs-hands", "ShaqsHands");
+createApp("demos/ruler", "Ruler");
 
 // Copy electron-prebuilt's dist/Electron.app as a starting point and then
 // customize it
 function createApp(demoFolder, appName){
     execSync("rm -rf build/Electron.app");
+    execSync("rm -rf build/" + appName + ".app");
     execSync("cp -r node_modules/electron-prebuilt/dist/Electron.app build");
     execSync("mkdir -p build/Electron.app/Contents/Resources/app");
     execSync("mv build/Electron.app/Contents/Resources/default_app/package.json build/Electron.app/Contents/Resources/app/");
