@@ -42,7 +42,7 @@ Calculate how much you have to scale an object in an image to make it appear lif
 more than one display, some do not. We use the best guest using Electron's ```screen.getDisplayMatching(rect)```
 
 ### Demos
-[Demos currently are available] for and only work on Macs.
+[Demos currently are available](https://github.com/francoislaberge/lifesized/releases) for and only work on Macs.
 
 To run the coins app that shows this off do the following:
 
