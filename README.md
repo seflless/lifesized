@@ -1,7 +1,7 @@
 ### Overview
 An Electron module for displaying objects in physically accurate sizes on screens.
 
-[Demos are available](https://github.com/francoislaberge/lifesized/releases) only on Macs.
+[Downloadable versions of the Demos are available](https://github.com/francoislaberge/lifesized/releases) for Macs.
 
 **I hope this module and its uses will convince browser makers to provide this as a native API or at least to Electron in its core**
 
