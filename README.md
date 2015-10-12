@@ -23,12 +23,12 @@ See the [Demo](#demo) and its [source](https://github.com/francoislaberge/lifesi
 
 ### API
 
-#### lifesized.ppi(screen)
+#### lifesized.ppi(display)
 
   - **display** (optional) - The Display who's PPI you want. If not provided it use the display the current browser.
 
     **NOTE**: Some OSs display windows on multiple displays at once when a Window spans
-  more than one display, some do not. We use the best guest using Electron's
+  more than one display, some do not. We use the best guest using Electron's ```screen.getDisplayMatching(rect)```
 
 ### Demo
 To run the demo app that shows this off do the following:
