@@ -1,5 +1,6 @@
 ### Todos
   - Add Windows/Linux native support
+  - Make sure that the module works in the main process just as well as in a render process.
   - Propose Electron add this to it's core
     - Already did this, but will push again when I have a better example/use-case to really sell it
   - Read these:
