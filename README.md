@@ -38,7 +38,7 @@ Calculate how much you have to scale an object in an image to make it appear lif
   - **display** (optional*) The Display you want to show the object on. If not provided it use the display the current BrowserWindow is most over.
   - Returns: (Number) Scale factor to use to scale images (1.0 === 100%)
 
-* Some OSs display windows on multiple displays at once when a Window spans
+\* Some OSs display windows on multiple displays at once when a Window spans
 more than one display, some do not. We use the best guest using Electron's ```screen.getDisplayMatching(rect)```
 
 ### Demos
