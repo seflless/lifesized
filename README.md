@@ -14,7 +14,7 @@ npm install --save lifesized
 ```js
 var lifesized = require('lifesized');
 
-// Get the pixels per inch of the display the current render processes BrowserWindow
+// Get the pixels per inch of the display the current render process' BrowserWindow
 // is mostly overlayed on
 var pixelsPerInch = lifesized.ppi();
 ```
