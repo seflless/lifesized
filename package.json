@@ -7,6 +7,7 @@
     "start": "npm start",
     "coins": "./node_modules/.bin/electron demos/coins/main.js",
     "shaqs-hands": "./node_modules/.bin/electron demos/shaqs-hands/main.js",
+    "ruler": "./node_modules/.bin/electron demos/ruler/main.js",
     "build-apps": "node ./bin/build-apps.js"
   },
   "devDependencies": {

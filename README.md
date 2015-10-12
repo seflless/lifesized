@@ -42,7 +42,7 @@ Calculate how much you have to scale an object in an image to make it appear lif
 more than one display, some do not. We use the best guest using Electron's ```screen.getDisplayMatching(rect)```
 
 ### Demos
-Demos currently are available for and only work on Macs.
+[Demos currently are available] for and only work on Macs.
 
 To run the coins app that shows this off do the following:
 
@@ -59,6 +59,8 @@ To run the coins app that shows this off do the following:
  3. Get some coins and verify that they are the same size in real life as they are on screen.
 
 <img src="https://raw.githubusercontent.com/francoislaberge/lifesized/master/examples/coins/screenshot.jpg" width="360">
+
+ 4. Run other demos via ```npm run shaqs-hands``` or ```npm run ruler```
 
 ### Limitations
   - Only accurate on OSX right now, falls back to a sane default of 72 pixels/inch (Pull Requests welcome, I will add Windows/Linux support as soon as I can)
