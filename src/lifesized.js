@@ -53,7 +53,7 @@ function getPPI(display){
     if(os.platform() === "darwin"){
         return  parseFloat(
                     execSync(
-                        path.resolve(__dirname, "../bin/lifesized-cli") + " " + display.id
+                        path.resolve(__dirname, "../build/lifesized-cli/Build/Products/Debug/lifesized-cli") + " " + display.id
                     )
                 );
     } else {
