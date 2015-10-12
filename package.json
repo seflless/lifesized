@@ -1,7 +1,7 @@
 {
   "name": "lifesized",
   "version": "0.0.6",
-  "description": "Get the real size, dpi, user view distance, zoom, pixel ratios, and more of devices in browser.",
+  "description": "Display things in life size",
   "main": "src/lifesized.js",
   "scripts": {
     "start": "npm start",
