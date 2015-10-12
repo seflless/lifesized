@@ -45,7 +45,7 @@ To run the demo app that shows this off do the following:
 
  3. Get some coins and verify that they are the same size in real life as they are on screen.
 
-<img src="examples/coins/screenshot.jpg" width="360">
+<img src="https://raw.githubusercontent.com/francoislaberge/lifesized/master/examples/coins/screenshot.jpg" width="360">
 
 
 ### Limitations
