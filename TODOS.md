@@ -6,6 +6,12 @@
   - Read these:
     - http://electron.atom.io/docs/v0.33.0/api/screen/#screen-getalldisplays
     - http://stackoverflow.com/a/12589799
+  - demos
+    - coins
+    - shaq hands
+    - measuring tape
+    - giant squid eye? (Is there even such a picture)
+  - Make downloadable apps for the demos to make it easy for non devs to try it out.
   - Make sure of the following:
     - Think about fallbacks when not on macs?
       - Return the usual default of 72?

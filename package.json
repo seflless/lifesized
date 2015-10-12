@@ -5,7 +5,9 @@
   "main": "src/lifesized.js",
   "scripts": {
     "start": "npm start",
-    "test": "./node_modules/.bin/electron examples/coins/main.js"
+    "coins": "./node_modules/.bin/electron demos/coins/main.js",
+    "shaqs-hands": "./node_modules/.bin/electron demos/shaqs-hands/main.js",
+    "build-apps": "node ./bin/build-apps.js"
   },
   "devDependencies": {
     "electron-prebuilt": "0.33.7"

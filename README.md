@@ -24,14 +24,27 @@ See the [Demo](#demo) and its [source](https://github.com/francoislaberge/lifesi
 ### API
 
 #### lifesized.ppi(display)
+Get the Pixels Per Inch of a display.
 
-  - **display** (optional) - The Display who's PPI you want. If not provided it use the display the current browser.
+  - **display** (optional*) - The Display who's PPI you want. If not provided it use the display the current BrowserWindow is most over.
+  - @returns (Number) The displays Pixels Per Inch.
 
-    **NOTE**: Some OSs display windows on multiple displays at once when a Window spans
-  more than one display, some do not. We use the best guest using Electron's ```screen.getDisplayMatching(rect)```
 
-### Demo
-To run the demo app that shows this off do the following:
+#### lifesized.scale(objectRealSize, objectPixelSize, display)
+Calculate how much you have to scale an object in an image to make it appear life sized on the screen.
+
+  - **objectRealSize** (Number) Real size of an object in inches
+  - **objectPixelSize** (Number) Size of the object in an image in pixels
+  - **display** (optional*) The Display you want to show the object on. If not provided it use the display the current BrowserWindow is most over.
+  - @returns (Number) Scale factor to use to scale images (1.0 === 100%)
+
+* Some OSs display windows on multiple displays at once when a Window spans
+more than one display, some do not. We use the best guest using Electron's ```screen.getDisplayMatching(rect)```
+
+### Demos
+Demos currently are available for and only work on Macs.
+
+To run the coins app that shows this off do the following:
 
  1. Get the code and npm install things
 
@@ -39,14 +52,13 @@ To run the demo app that shows this off do the following:
             cd lifesized
             npm Install
 
- 2. Launch the demo
+ 2. Launch the coins demo
 
-            npm test
+            npm run coins
 
  3. Get some coins and verify that they are the same size in real life as they are on screen.
 
 <img src="https://raw.githubusercontent.com/francoislaberge/lifesized/master/examples/coins/screenshot.jpg" width="360">
-
 
 ### Limitations
   - Only accurate on OSX right now, falls back to a sane default of 72 pixels/inch (Pull Requests welcome, I will add Windows/Linux support as soon as I can)
