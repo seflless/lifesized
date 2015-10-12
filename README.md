@@ -27,7 +27,7 @@ See the [Demos](#demo) and their [source](https://github.com/francoislaberge/lif
 Get the Pixels Per Inch of a display.
 
   - **display** (optional*) - The Display who's PPI you want. If not provided it use the display the current BrowserWindow is most over.
-  - @returns (Number) The displays Pixels Per Inch.
+  - Returns: (Number) The displays Pixels Per Inch.
 
 
 #### lifesized.scale(objectRealSize, objectPixelSize, display)
@@ -36,7 +36,7 @@ Calculate how much you have to scale an object in an image to make it appear lif
   - **objectRealSize** (Number) Real size of an object in inches
   - **objectPixelSize** (Number) Size of the object in an image in pixels
   - **display** (optional*) The Display you want to show the object on. If not provided it use the display the current BrowserWindow is most over.
-  - @returns (Number) Scale factor to use to scale images (1.0 === 100%)
+  - Returns: (Number) Scale factor to use to scale images (1.0 === 100%)
 
 * Some OSs display windows on multiple displays at once when a Window spans
 more than one display, some do not. We use the best guest using Electron's ```screen.getDisplayMatching(rect)```
@@ -58,7 +58,7 @@ To run the coins app that shows this off do the following:
 
  3. Get some coins and verify that they are the same size in real life as they are on screen.
 
-<img src="https://raw.githubusercontent.com/francoislaberge/lifesized/master/examples/coins/screenshot.jpg" width="360">
+<img src="https://raw.githubusercontent.com/francoislaberge/lifesized/master/demos/coins/screenshot.jpg" width="360">
 
  4. Run other demos via ```npm run shaqs-hands``` or ```npm run ruler```
 
