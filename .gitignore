@@ -1,2 +1,8 @@
+.DS_Store
 node_modules
 npm-debug.log
+
+build/lifesized-cli/Build/Intermediates
+build/lifesized-cli/Logs
+build/lifesized-cli/info.plist
+build/ModuleCache

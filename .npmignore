@@ -3,3 +3,5 @@ examples
 tools
 *.md
 index.html
+lifesized-cli/*
+lifesized-cli.xcodeproj

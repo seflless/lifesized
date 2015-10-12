@@ -1,0 +1,22 @@
+### Todos
+  - Add Windows/Linux native support
+  - Propose Electron add this to it's core
+    - Already did this, but will push again when I have a better example/use-case to really sell it
+  - Read these:
+    - http://electron.atom.io/docs/v0.33.0/api/screen/#screen-getalldisplays
+    - http://stackoverflow.com/a/12589799
+  - Make sure of the following:
+    - Think about fallbacks when not on macs?
+      - Return the usual default of 72?
+      - Return something representing unavailable like null?
+    - Detect and throw exception when in the incorrect environment:
+      - node.js
+      - Electron's main process
+    - Provide APIs for
+      - Getting the DPI
+      - Getting the size of a display in inches (function defaults to the current window's 'screen', a screen can be provided to find the correct one)
+      - Getting the size of the browser window in inches
+      - Ensure there are events to communicate a change ppi
+        - Wait, PPI can't change, just the display that the browserwindow is over,
+          perhaps instead just documenting that users should use the built-in event for changes to the display
+          - hmmmm, seems there is no such event. We'll have to rig it up by figuring it out ourselves. Hopefully we can figure out which window the window is in

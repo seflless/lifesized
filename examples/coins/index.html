@@ -23,29 +23,7 @@
     <p>Hold up real coins to the screen. Real and rendered versions should match in size.</p>
   </div>
 
-  <script src="../../realunits.js"></script>
-  <script>
-    var coins = [
-          // Sizes are from the US mint:
-          // http://www.usmint.gov/about_the_mint/?action=coin_specifications
-          { name: 'US Penny', image: 'penny.png', inches: 0.750 },
-          { name: 'US Nickel', image: 'nickel.png', inches: 0.835 },
-          { name: 'US Dime', image: 'dime.png', inches: 0.705 },
-          { name: 'US Quarter', image: 'quarter.png', inches: 0.995 }
-        ],
-        table = document.getElementById('table');
-
-    coins.forEach(function(coin){
-      var img = document.createElement('img');
-
-      img.src = coin.image;
-      img.style.width = Math.floor(realunits.convert(coin.inches))+'px';
-      img.style.height = Math.floor(realunits.convert(coin.inches))+'px';
-
-      table.appendChild(img);
-    })
-
-  </script>
+  <script>require('./app');</script>
 
   <!--
     TODO:

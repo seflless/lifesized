@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A82780F-DFCE-4CFF-85F1-58E5F97EC11F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>lifesized-cli</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>84FC80CE4BDF25F03082E44A7E1105C83A97064B</key>
+		<string>github.com:francoislaberge/lifesized.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>lifesized-cli.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>84FC80CE4BDF25F03082E44A7E1105C83A97064B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:francoislaberge/lifesized.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>84FC80CE4BDF25F03082E44A7E1105C83A97064B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>84FC80CE4BDF25F03082E44A7E1105C83A97064B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lifesized</string>
+		</dict>
+	</array>
+</dict>
+</plist>

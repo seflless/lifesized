@@ -2,14 +2,27 @@
   "name": "lifesized",
   "version": "0.0.6",
   "description": "Get the real size, dpi, user view distance, zoom, pixel ratios, and more of devices in browser.",
-  "main": "realunits.js",
+  "main": "src/lifesized.js",
   "scripts": {
-    "start": "npm start"
+    "start": "npm start",
+    "test": "./node_modules/.bin/electron examples/coins/main.js"
   },
+  "devDependencies":{
+      "electron-prebuilt": "0.33.7"
+  },
+  "author": {
+    "name": "Francois Laberge",
+    "email": "francoislaberge@gmail.com"
+  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/francoislaberge/lifesized"
   },
+  "bugs": {
+    "url": "https://github.com/francoislaberge/lifesized/issues"
+  },
+  "homepage": "https://github.com/francoislaberge/lifesized",
   "keywords": [
     "CSS",
     "Units",
@@ -17,14 +30,5 @@
     "PPI",
     "Pixel",
     "Ratio"
-  ],
-  "author": {
-    "name": "Francois Laberge",
-    "email": "francoislaberge@gmail.com"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/francoislaberge/lifesized/issues"
-  },
-  "homepage": "https://github.com/francoislaberge/lifesized"
+  ]
 }
