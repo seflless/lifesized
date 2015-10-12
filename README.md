@@ -1,6 +1,8 @@
 ### Overview
 An Electron module for displaying objects in physically accurate sizes on screens.
 
+[Demos currently are available](https://github.com/francoislaberge/lifesized/releases) for and only work on Macs.
+
 **I hope this module and its uses will convince browser makers to provide this as a native API or at least to Electron in its core**
 
 ### Installation
@@ -42,8 +44,6 @@ Calculate how much you have to scale an object in an image to make it appear lif
 more than one display, some do not. We use the best guest using Electron's ```screen.getDisplayMatching(rect)```
 
 ### Demos
-[Demos currently are available](https://github.com/francoislaberge/lifesized/releases) for and only work on Macs.
-
 To run the coins app that shows this off do the following:
 
  1. Get the code and npm install things
