@@ -1,6 +1,6 @@
 {
   "name": "lifesized",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Display things in life size",
   "main": "src/lifesized.js",
   "scripts": {
