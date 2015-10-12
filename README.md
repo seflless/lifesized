@@ -1,7 +1,7 @@
 ### Overview
 An Electron module for displaying objects in physically accurate sizes on screens.
 
-**I hope this module and it's uses will convince browser makers to provide this as a native API as well as Electron to add it to it's core.**
+**I hope this module and its uses will convince browser makers to provide this as a native API as well as Electron to add it to it's core.**
 
 ### Installation
 
