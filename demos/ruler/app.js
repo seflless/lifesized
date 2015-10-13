@@ -18,6 +18,7 @@ imageElement.style.width = Math.floor(imageWidth*imageScale) + 'px';
 imageElement.style.height = Math.floor(imageHeight*imageScale) + 'px';
 
 function centerRulerVertically(){
+    imageElement.style.marginLeft = Math.floor((window.innerWidth - parseInt(imageElement.style.width))/2) + 'px';
     imageElement.style.marginTop = Math.floor((window.innerHeight - parseInt(imageElement.style.height))/2) + 'px';
 }
 
