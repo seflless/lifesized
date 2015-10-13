@@ -6,6 +6,7 @@
   - Read these:
     - http://electron.atom.io/docs/v0.33.0/api/screen/#screen-getalldisplays
     - http://stackoverflow.com/a/12589799
+    - http://stackoverflow.com/questions/3019346/is-there-a-way-to-determine-the-physical-size-of-the-monitor
   - demos
     - coins
     - shaq hands
