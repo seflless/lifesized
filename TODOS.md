@@ -13,6 +13,8 @@
     - measuring tape
     - giant squid eye? (Is there even such a picture)
     - QR code related? Display it on a screen instead of printing for example. See [ARToolkit](http://www.artoolkit.org/documentation/doku.php?id=2_Configuration:config_camera_calibration), [JS Implementation](https://github.com/kig/JSARToolKit), [html5rocks.com tutorial](http://www.html5rocks.com/en/tutorials/webgl/jsartoolkit_webrtc/)
+    - Do some video face tracking and face size maintaining. Also see:
+      - https://www.youtube.com/watch?v=VJ9Ih-49O3o, via http://idav.ucdavis.edu/~okreylos/
   - Make downloadable apps for the demos to make it easy for non devs to try it out.
   - Make sure of the following:
     - Think about fallbacks when not on macs?
