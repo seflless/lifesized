@@ -12,6 +12,7 @@
     - shaq hands
     - measuring tape
     - giant squid eye? (Is there even such a picture)
+    - QR code related? Display it on a screen instead of printing for example. See [ARToolkit](http://www.artoolkit.org/documentation/doku.php?id=2_Configuration:config_camera_calibration)
   - Make downloadable apps for the demos to make it easy for non devs to try it out.
   - Make sure of the following:
     - Think about fallbacks when not on macs?
