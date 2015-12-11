@@ -16,6 +16,8 @@
     - Do some video face tracking and face size maintaining. Also see:
       - https://www.youtube.com/watch?v=VJ9Ih-49O3o, via http://idav.ucdavis.edu/~okreylos/
   - Make downloadable apps for the demos to make it easy for non devs to try it out.
+  - Make case for physiological rules based model for responsive designs
+    - example, estimate view distance, plus pixel density, plus real world width to determine the ideal column width for easy readibility (font size matters, reducing eye strain mentally scanning back to left to figure out what hte next line is)
   - Make sure of the following:
     - Think about fallbacks when not on macs?
       - Return the usual default of 72?
