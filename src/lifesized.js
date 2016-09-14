@@ -2,7 +2,7 @@
  * lifesized: Get the physical size of displays and their ppi
  */
 
-var screen = require('screen'),
+var electron = require('electron'),
     execSync = require('child_process').execSync,
     path = require('path'),
     os = require('os');
@@ -39,9 +39,8 @@ var lifesized = {
  */
 function getBrowserWindowDisplay(){
     // Don't require remote unless we hit here as it can't be required in the
-    // main process. Main processes need to provide
-    var remote = require('remote');
-    return screen.getDisplayMatching(remote.getCurrentWindow().getBounds());
+    // main process. 
+    return electron.screen.getDisplayMatching(electron.remote.getCurrentWindow().getBounds());
 }
 
 /**
