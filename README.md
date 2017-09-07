@@ -69,4 +69,11 @@ To run the coins app that shows this off do the following:
   - Doesn't currently detect when a BrowserWindow's Display changes (This should be detectable, will add ASAP)
 
 ### Contributing
+
+```
+git clone git@github.com:francoislaberge/lifesized.git
+cd lifesized
+yarn install
+```
+
 See the [Todos](https://github.com/francoislaberge/lifesized/blob/master/TODOS.md) for planned work if you want to chip in.
