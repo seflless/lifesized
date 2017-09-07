@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
             return -1;
         }
 
-        long targetScreenId = atoi("69732482");
+        long targetScreenId = atoi(argv[1]);
         long count = [[NSScreen screens] count];
         
         // Find the screen with the same screen ID

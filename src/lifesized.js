@@ -4,6 +4,7 @@
 
 var electron = require('electron'),
     execSync = require('child_process').execSync,
+    exec = require('child_process').exec,
     path = require('path'),
     os = require('os');
 
@@ -39,7 +40,7 @@ var lifesized = {
  */
 function getBrowserWindowDisplay(){
     // Don't require remote unless we hit here as it can't be required in the
-    // main process. 
+    // main process.
     return electron.screen.getDisplayMatching(electron.remote.getCurrentWindow().getBounds());
 }
 
@@ -47,14 +48,25 @@ function getBrowserWindowDisplay(){
  * Get a screens PPI
  */
 function getPPI(display){
+    const COMMAND = path.resolve(__dirname, "../build/lifesized-cli/Build/Products/Debug/lifesized-cli") + " " + display.id;
+    console.log(COMMAND);
+    exec( COMMAND, (err, stdout, stderr) => {
+        debugger;
+    });
+
     // If on a mac use our native binary to do the work, otherwise fall back
     // to a default
     if(os.platform() === "darwin"){
-        return  parseFloat(
-                    execSync(
-                        path.resolve(__dirname, "../build/lifesized-cli/Build/Products/Debug/lifesized-cli") + " " + display.id
-                    )
-                );
+        try {
+            return  parseFloat(
+                        execSync(
+                            COMMAND
+                        )
+                    );
+        } catch (err) {
+            console.error(err);
+            return 72.0;
+        }
     } else {
         return 72.0;
     }
