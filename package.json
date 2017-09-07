@@ -7,11 +7,12 @@
     "coins": "./node_modules/.bin/electron demos/coins/main.js",
     "shaqs-hands": "./node_modules/.bin/electron demos/shaqs-hands/main.js",
     "ruler": "./node_modules/.bin/electron demos/ruler/main.js",
-    "build-apps": "node ./bin/build-apps.js"
+    "build-apps": "node ./bin/build-apps.js",
+    "build:coins": "cd build && ../node_modules/.bin/electron-packager ../demos/coins Coins"
   },
   "devDependencies": {
-    "electron": "^1.3.6",
-    "electron-builder": "^19.27.7"
+    "electron": "^1.7.6",
+    "electron-packager": "^9.0.1"
   },
   "author": {
     "name": "Francois Laberge",

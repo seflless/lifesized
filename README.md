@@ -21,7 +21,7 @@ var lifesized = require('lifesized');
 var pixelsPerInch = lifesized.ppi();
 ```
 
-See the [Demos](#demo) and their [source](https://github.com/francoislaberge/lifesized/tree/master/examples) for a working example.
+See the [Demos](#demos) and their [source](https://github.com/francoislaberge/lifesized/tree/master/examples) for a working example.
 
 ### API
 

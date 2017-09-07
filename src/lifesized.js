@@ -49,10 +49,10 @@ function getBrowserWindowDisplay(){
  */
 function getPPI(display){
     const COMMAND = path.resolve(__dirname, "../build/lifesized-cli/Build/Products/Debug/lifesized-cli") + " " + display.id;
-    console.log(COMMAND);
-    exec( COMMAND, (err, stdout, stderr) => {
-        debugger;
-    });
+    //console.log(COMMAND);
+    // exec( COMMAND, (err, stdout, stderr) => {
+    //     debugger;
+    // });
 
     // If on a mac use our native binary to do the work, otherwise fall back
     // to a default

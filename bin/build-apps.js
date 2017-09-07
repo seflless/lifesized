@@ -12,14 +12,18 @@ createApp("demos/ruler", "Ruler");
 // Copy electron's dist/Electron.app as a starting point and then
 // customize it
 function createApp(demoFolder, appName){
-    execSync("rm -rf build/Electron.app");
+    //execSync("rm -rf build/Electron.app");
+    execSync("rm -rf build/" + appName + "-darwin-x64");
     execSync("rm -rf build/" + appName + ".app");
-    execSync("cp -r node_modules/electron/dist/Electron.app build");
-    // execSync("mkdir -p build/Electron.app/Contents/Resources/app");
-    // execSync("mv build/Electron.app/Contents/Resources/app/package.json build/Electron.app/Contents/Resources/app/");
-    // execSync("rm -rf build/Electron.app/Contents/Resources/default_app");
-    // execSync("cp -r " + demoFolder + "/ build/Electron.app/Contents/Resources/app");
-    // execSync("cp -r src build/Electron.app/Contents");
-    // execSync("cp -r bin build/Electron.app/Contents");
-    // execSync("mv build/Electron.app build/" + appName + ".app");
+
+    execSync(`cd build && ../node_modules/.bin/electron-packager ../${demoFolder} ${appName}`);
+    execSync(`mv build/${appName}-darwin-x64/${appName}.app build/`);
+    execSync(`rm -rf build/${appName}-darwin-x64`);
+
+    execSync(`mkdir -p build/${appName}.app/Contents/src`);
+    execSync(`cp src/lifesized.js build/${appName}.app/Contents/src`);
+
+    execSync(`mkdir -p build/${appName}.app/Contents/build/lifesized-cli/Build/Products/Debug`);
+    execSync(`cp build/lifesized-cli/Build/Products/Debug/lifesized-cli build/${appName}.app/Contents/build/lifesized-cli/Build/Products/Debug/`);
+
 }
