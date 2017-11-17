@@ -1,4 +1,6 @@
 ### Todos
+  - Include this in references:
+    - https://github.com/kickingvegas/12pt-should-be-the-same-everywhere/blob/master/absoluteMeasurementDPI.md
   - Add Windows/Linux native support
   - Make sure that the module works in the main process just as well as in a render process.
   - Propose Electron add this to it's core
