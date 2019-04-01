@@ -35,3 +35,8 @@
         - Wait, PPI can't change, just the display that the browserwindow is over,
           perhaps instead just documenting that users should use the built-in event for changes to the display
           - hmmmm, seems there is no such event. We'll have to rig it up by figuring it out ourselves. Hopefully we can figure out which window the window is in
+ - Write article
+   - Size and resolution and head position are important to legibility and info graphic size/detailing
+   - Include life sized audio equivalent. Sounds should be at correct volume
+   - Volume depends on observer
+   - Knowing what the device looks like would be very helpful for color schemes and such
